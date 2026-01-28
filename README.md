@@ -3,7 +3,7 @@
 ## 🇩🇪 Projektbeschreibung
 
 Dieses Projekt implementiert ein vollständiges UART-basiertes Kommandoverarbeitungssystem auf FPGA-Basis.
-Über eine serielle UART-Schnittstelle werden Befehle empfangen, dekodiert und durch eine ALU verarbeitet.
+Über eine serielle UART-Schnittstelle werden Befehle gesendet, empfangen, dekodiert und durch eine ALU verarbeitet.
 
 Das System besteht aus:
 - UART Transmitter
