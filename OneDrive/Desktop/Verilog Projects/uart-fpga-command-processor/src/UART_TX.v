@@ -47,8 +47,7 @@ module UART_TX(
     //State Definition
     parameter RESET=3'b000,
               IDLE =3'b001,
-              START=3'b010,
-              SEND =3'b011,
+              SEND =3'b010,
               DONE =3'b100;
               
     reg [2:0] state, next_state;
