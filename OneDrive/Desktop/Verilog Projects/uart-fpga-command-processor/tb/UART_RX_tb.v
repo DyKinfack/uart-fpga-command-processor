@@ -1,9 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
-// 
-// Create Date: 22.01.2026 19:35:06
+// Engineer: Dylann Kinfack
+
 // Design Name: 
 // Module Name: UART_RX_tb
 // Project Name: 
