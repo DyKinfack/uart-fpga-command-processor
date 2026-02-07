@@ -1,9 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Dylann Kinfack
 // 
-// Create Date: 24.01.2026 20:05:28
 // Design Name: 
 // Module Name: UART_TOP_tb
 // Project Name: 
@@ -77,7 +76,7 @@ always @(posedge clk)
         #30000;
 
         // Wait long enough for UART + ALU
-        //#900_000;   // 200 µs (safe for UART)
+        //#900_000;   // 200 Âµs (safe for UART)
 
         $display("RESULT = %h", result);
 
