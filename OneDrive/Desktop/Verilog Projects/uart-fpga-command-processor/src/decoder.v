@@ -3,7 +3,6 @@
 // Company: 
 // Engineer: Dylann Kinfack
 // 
-// Create Date: 06.12.2025 19:15:06
 // Design Name: uart-fpga-command-processor
 // Module Name: decoder
 // Project Name: uart-fpga-command-processor
@@ -11,7 +10,7 @@
 // Tool Versions: Vivado 2020.2
 // Description: 
 // EN: Decodes received UART data into opcode and operands. Implements a handshake protocol (cmd_valid / cmd_ack) for safe communication with the ALU.
-// DE: Dekodiert empfangene UART-Daten in Opcode und Operanden. Implementiert ein Handshake-Protokoll (cmd_valid / cmd_ack) zur sicheren Übergabe an die ALU.
+// DE: Dekodiert empfangene UART-Daten in Opcode und Operanden. Implementiert ein Handshake-Protokoll (cmd_valid / cmd_ack) zur sicheren Ãœbergabe an die ALU.
 // Dependencies: 
 // 
 // Revision:
