@@ -1,9 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Dylann Kinfack
 // 
-// Create Date: 24.01.2026 16:22:46
 // Design Name: 
 // Module Name: UART_TX_tb
 // Project Name: 
