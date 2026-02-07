@@ -1,9 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Dylann Kinfack
 // 
-// Create Date: 23.01.2026 19:33:46
 // Design Name: 
 // Module Name: decoder_tb
 // Project Name: 
