@@ -7,7 +7,7 @@
 // Module Name: UART_TX
 // Project Name: uart-fpga-command-processor
 // Target Devices: Spartan-7
-// Tool Versions: Vivado 202.2
+// Tool Versions: Vivado 2020.2
 // Description: 
 // EN:
 // UART transmitter implementing an FSM-based control 
