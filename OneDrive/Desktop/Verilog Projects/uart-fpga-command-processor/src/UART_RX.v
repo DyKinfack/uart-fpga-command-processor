@@ -3,16 +3,15 @@
 // Company: 
 // Engineer: Dylann Kinfack
 // 
-// Create Date: 05.12.2025 23:31:43
 // Design Name: uart-fpga-command-processor
 // Module Name: UART_RX
 // Project Name: uart-fpga-command-processor
 // Target Devices: Spartan-7
 // Tool Versions: Vivado 2020.2
 // Description: 
-//  EN: UART receiver using 16× baud rate oversampling, start-bit detection, and synchronized RX input to prevent metastability.
+//  EN: UART receiver using 16Ã— baud rate oversampling, start-bit detection, and synchronized RX input to prevent metastability.
 //  
-//  DE: UART-Empfänger mit Oversampling (16× Baudrate), Startbit-Erkennung und synchronisierter RX-Leitung zur Vermeidung von Metastabilität.
+//  DE: UART-EmpfÃ¤nger mit Oversampling (16Ã— Baudrate), Startbit-Erkennung und synchronisierter RX-Leitung zur Vermeidung von MetastabilitÃ¤t.
 // Dependencies: 
 // 
 // Revision:
@@ -30,7 +29,7 @@ module UART_RX(
     output reg rx_valid
     );
     
-   // Recieve rx Synchronisation. rx ist asynchron direkte Nutzung für zu Metastabilität
+   // Recieve rx Synchronisation. rx ist asynchron direkte Nutzung fÃ¼r zu MetastabilitÃ¤t
    reg rx_synch1;
    reg rx_synch2;
    always @(posedge clk)
@@ -53,7 +52,7 @@ module UART_RX(
     if(!reset)
         counter <= 5'b0;
     else
-        if(counter == CYCLES-1) //zählt bis 26 dann wieder auf 0
+        if(counter == CYCLES-1) //zÃ¤hlt bis 26 dann wieder auf 0
             counter <=5'd0;
         else
             counter <= counter +1;
