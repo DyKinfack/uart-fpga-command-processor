@@ -3,7 +3,6 @@
 // Company: 
 // Engineer: Dylann Kinfack
 // 
-// Create Date: 05.12.2025 14:08:23
 // Design Name: uart-fpga-command-processor
 // Module Name: UART_TX
 // Project Name: uart-fpga-command-processor
