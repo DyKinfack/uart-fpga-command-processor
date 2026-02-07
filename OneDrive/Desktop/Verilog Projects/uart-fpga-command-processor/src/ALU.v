@@ -3,7 +3,6 @@
 // Company: 
 // Engineer: Dylann Kinfack
 // 
-// Create Date: 06.12.2025 11:36:51
 // Design Name: uart-fpga-command-processor
 // Module Name: ALU
 // Project Name: uart-fpga-command-processor
@@ -11,7 +10,7 @@
 // Tool Versions: Vivado 2020.2
 // Description: 
 // EN: Synchronous ALU module performing arithmetic operations (add, subtract, multiply, divide) and generating result data for transmission.
-// DE: Synchrones ALU-Modul zur Ausführung arithmetischer Operationen (Add, Sub, Mul, Div). Erzeugt Ergebnisdaten und steuert die Rückübertragung.
+// DE: Synchrones ALU-Modul zur AusfÃ¼hrung arithmetischer Operationen (Add, Sub, Mul, Div). Erzeugt Ergebnisdaten und steuert die RÃ¼ckÃ¼bertragung.
 // Dependencies: 
 // 
 // Revision:
