@@ -1,9 +1,8 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Dylann Kinfack
 // 
-// Create Date: 24.01.2026 12:14:36
 // Design Name: 
 // Module Name: ALU_tb
 // Project Name: 
